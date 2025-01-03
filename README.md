@@ -87,8 +87,8 @@ python train.py predict --config configs/default.yaml --ckpt_path saved/checkpoi
 
 1. Clone the repo:
    ```
-   git clone https://github.com/your-repo-name.git
-   cd your-repo-name
+   git clone https://github.com/HaoweiChan/Lightning-Template.git
+   cd Lightning-Template
    ```
 
 2. Install dependencies:
