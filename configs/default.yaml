@@ -1,0 +1,18 @@
+seed_everything: 42
+trainer:
+  max_epochs: 100
+  accelerator: auto
+  devices: 1
+  precision: 32
+  
+model:
+  class_path: modules.task_module.TaskModule
+  init_args:
+    learning_rate: 0.001
+
+data:
+  class_path: data.datamodule.CustomDataModule
+  init_args:
+    data_dir: res/data
+    batch_size: 32
+    num_workers: 4 
